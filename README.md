@@ -1,5 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
-Due: Friday, 8/2 at 9 AM EST
+Due: Thursday, 8/1 at 9 AM EST
 
 Project groups will be sent out during lunch!
 
@@ -14,7 +14,7 @@ Remember to start with a good problem statement!
 
 Some prompts have links to data sources, some don't. It's your responsibility to gather and clean your data. For most projects, this will be the bulk of your work. Start early!
 
-Inspiration for several prompts came from [Data is Plural](https://tinyletter.com/data-is-plural).
+Inspiration for several prompts came from [Data is Plural](https://www.data-is-plural.com/).
 
 ## Prompts
 
