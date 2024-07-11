@@ -1,5 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
-Due: Friday, 3/22 at 9 AM EST
+Due: Friday, 8/2 at 9 AM EST
 
 Project groups will be sent out during lunch!
 
