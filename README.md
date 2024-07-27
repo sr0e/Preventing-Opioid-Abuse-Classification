@@ -38,3 +38,53 @@ Can we build a model that predicts the likelihood of a patient abusing prescribe
 | **HALUCNG**         | *int*  | All     | Used hallucinogens in past year (Binary).                                         |  Likert scale: 0-5    |
 | **TRTMENT**         | *int*  | All     | Received treatment for substance use (Binary).                                    |    Likert scale: 1-10    |
 | **MHTRTMT**         | *int*  | All     | Received treatment for mental health (Binary).                                    |   Likert scale: 0-5   |
+| **AGE_MARRIED**         | *int*  | All     | Interaction (*) of AGECAT and MARRIED.                                               |       |
+| **AGE_EMPLOY**        | *int*  | All     | Interaction (*) of AGECAT and EMPLOY18.                                          |     |
+| **REPORTED_HEALTH**         | *int*  | All     | Interaction (*) of HEALTH and MENTHLTH.                                         |      |
+| **HISTORY**         | *int*  | All     | Interaction (*) of HEROINEVR and PRLMISEVR                                    |        |
+| **UPPERS**         | *int*  | All     | Use of uppers in last year (Cocaine and Amphetamines).                                    |      |
+| **DOWNERS**         | *int*  | All     | Use of downers in the last year (Sedatives, Tranqs, Heroin).    
+
+## Data Used
+1. prlmis-data-full.csv
+2. pain_clean.csv
+
+
+Links to outside resources used:
+1. Opioid Crisis in Young Americans https://murphy.house.gov/media/press-releases/murphy-fentanyl-killing-more-young-americans-covid-19
+2. 
+
+
+---
+
+## Requirements
+- Python, Jupyter
+- Pandas, Numpy, Matplotlib, Seaborn
+- Scikit Learn Libraries:
+   - StandardScaler, Train Test Split, Metrics, LogisticRegression
+   - Pipeline
+- Tensorflow, Keras
+   - Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+   - VGG16, TensorBoard
+---
+## Executive Summary
+ This project aims to develop a machine learning model to predict the likelihood of a patient abusing pain medications. This information would allow doctors to make decisions on what types of pain meds to give, how much to give at a time, prevent cases of addiction and/or relapse and
+intervene early, create treatment plans and overall improve quality of care for all patients.
+
+ 
+#### Objectives
+1. Data Processing: Clean and preprocess the text data to ensure it is suitable for model training.
+2. Data Exploration: Explore data for correlations to our target variable and create interaction terms.
+3. Model Development: Develop and train machine learning models to predict the likelihood of a patient abusing prescription pain medications.
+4. Evaluation: Assess the performance of the models using various metrics to ensure their accuracy and reliability.
+
+
+#### Methods
+  - 
+  
+
+#### Findings
+  - 
+
+#### Next steps
+  -  
