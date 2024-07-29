@@ -48,11 +48,14 @@ Can we build a model that predicts the likelihood of a patient abusing prescribe
 ## Data Used
 1. prlmis-data-full.csv
 2. pain_clean.csv
+3. Shiverick-PRLMIS-final.pdf
 
 
 Links to outside resources used:
-1. Opioid Crisis in Young Americans https://murphy.house.gov/media/press-releases/murphy-fentanyl-killing-more-young-americans-covid-19
-2. 
+
+1. Kaggle Dataset on Opioid Abuse: https://www.kaggle.com/datasets/thedevastator/predicting-pain-reliever-misuse-abuse/data
+2. Dataset Documentation that Provided Data Dictionary Context: https://zenodo.org/records/2301844#.Y8OqptJBwUE
+3. Opioid Crisis in Young Americans https://murphy.house.gov/media/press-releases/murphy-fentanyl-killing-more-young-americans-covid-19
 
 
 ---
@@ -84,7 +87,7 @@ intervene early, create treatment plans and overall improve quality of care for 
   
 
 #### Findings
-  - 
+  - Surprisingly, the correlation between opioid abuse and drugs in the stimulant(UPPERS) category was stronger than the correlation between opioid abuse and drugs in the sedative(DOWNERS) category.
 
 #### Next steps
   -  
