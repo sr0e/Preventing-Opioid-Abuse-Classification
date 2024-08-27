@@ -1,182 +1,156 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 5: Group Project
-Due: Thursday, 8/1 at 9 AM EST
+# Project 5: Group Project - Opioid Abuse
+---
+Corey Jesmer, Sarah Roe, & Ayodeji Ejigbo
 
-Project groups will be sent out during lunch!
-
-
-## The Work
-
-The prompts are there to help jump-start your ideation process. If you would like to change or combine prompts, that's fine! If you want to find your own idea, even better. **Consult your local instructor for final approval before getting started.**  
-
-Remember to start with a good problem statement!
-
-## The Data
-
-Some prompts have links to data sources, some don't. It's your responsibility to gather and clean your data. For most projects, this will be the bulk of your work. Start early!
-
-Inspiration for several prompts came from [Data is Plural](https://www.data-is-plural.com/).
-
-## Prompts
-
-### Aviation Accidents
-
-The National Transportation Safety Board (NTSB) [tracks](https://www.ntsb.gov/_layouts/ntsb.aviation/index.aspx) all civilian aviation accidents (and "incidents") going back to 1962.
-
-### Center for Disease Control
-
-The Center for Disease Control has several datasets:
-- [Vaccinations](https://data.cdc.gov/browse?category=Vaccinations)
-- [Smoking and Tobacco Use](https://data.cdc.gov/browse?category=Smoking+%26+Tobacco+Use)
-- [COVID-19](https://data.cdc.gov/browse?tags=covid-19)
-
-### Economic Data
-
-If you're interested in a project focused on the economy, the Bureau of Labor Statistics (BLS) has [several datasets](https://www.bls.gov/data/) ranging from employment to inflation.
-
-### Voter Fraud (or lack thereof)
-The Brookings Institute had an [interesting article](https://www.brookings.edu/blog/fixgov/2020/06/02/low-rates-of-fraud-in-vote-by-mail-states-show-the-benefits-outweigh-the-risks/) on voter fraud. Although no datasets are provided, there are several links to sources where you might be able to find some.
-
-### Incarceration
-
-The United States Sentencing Commission (USSC) has [data](https://www.ussc.gov/research/datafiles/commission-datafiles) on federal sentencing going back to 2002.
-
-### Environment
-
-The EPA has data on [air quality](https://cfpub.epa.gov/airnow/index.cfm?action=airnow.main), [precipitation](https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid={BDD5DD12-4942-41A6-B47D-9C2459F28A0A}), [stream flows](https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid={0599E344-4682-479D-9334-78FE576E2881}) [and more](https://edg.epa.gov/metadata/catalog/main/home.page).
-
-### Protests
-
-[The Mass Mobilization Project](https://massmobilization.github.io/) provides data on demonstrations worldwide, as well as the government responses.
-
-### Charity
-
-[Data.world](https://data.world/datasets/charity) has several datasets related to altruism: donations, organizations, and volunteerism. 
-
-### CTE
-
-Chronic Traumatic Encephalopathy (CTE) is a horrific brain disease, and occurs [frequently](http://www.bu.edu/articles/2017/cte-former-nfl-players/) in former NFL players. Gathering the data will take some work, but here are some starter links.
-- [Kaggle](https://www.kaggle.com/jpmiller/nfl-competition-data)
-- [Twelve Years of National Football League Concussion Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438866/)
-
-### Politics
-FiveThiryEight is a great news and commentary site for all things data. Their main foci are sports and politics. If you're interested in polling data, check out the "Data" links in the footer on [this page](https://projects.fivethirtyeight.com/2020-election-forecast/).
-
-### Consumer Complaints
-
-The Consumer Financial Protection Bureau maintains a [dataset](https://www.consumerfinance.gov/data-research/consumer-complaints/) on customer complaints to various financial organizations in the US.
-
-### Professional Athletes
-
-For this prompt, choose a professional sport and compare the distribution of birth months vs the US population. [Sports Reference](https://www.sports-reference.com/) is a good resource for men's and women's sports.
-
-h/t [Malcolm Gladwell](https://youtu.be/kspphGOjApk?t=148)
-
-### SEC
-
-The Securities and Exchange Commission (SEC) is the go-to for [financial data](https://www.sec.gov/edgar/searchedgar/companysearch.html) on US publicly traded companies. The also have [press releases](https://www.sec.gov/litigation/litreleases.shtml) that pertain to various violations.
-
-### US Treasury
-
-The US Treasury Department has several datasets related to public debt. The [yield curve](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield) is a key indicator of economic health. They also maintain data on the sale of [securities](https://www.treasurydirect.gov/instit/annceresult/annceresult.htm).
-
-They also have [auction data](https://home.treasury.gov/services/treasury-auctions) for items that are seized by the IRS.
-
-### Federal Reserve
-
-The Fed has a wide variety of [datasets](https://www.federalreserve.gov/datadownload/) related to the economy and financial markets.
-
-### Still stuck?
-
-Check out [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/), [Data.world](https://data.world/) and [Kaggle](https://www.kaggle.com/datasets) for inspiration.
-
-## Requirements
-For the purposes of a DSI project, you must meet a few technical requirements. They are:
-1)  A `README.md` file in your project repo. Note that `README` files are automatically rendered by GitHub when you view a repo. Your README should contain:
-    - A problem statement.
-    - A succinct formulation of the question your analysis seeks to answer.
-    - A table of contents, which should indicate which notebook or scripts a stakeholder should start with, and a link to an **executive summary**.
-    - A paragraph description of the data you used, plus your data acquisition, ingestion, and cleaning steps.
-    - A short description of software requirements (e.g., `Pandas`, `Scikit-learn`) required by your analysis.
-
-2) Your notebook(s) should be **reproducible** and **error-free**. This means:
-    - You should set a random seed at the start of every notebook. This will ensure that the random numbers generated in your notebook will be the same every time.
-    - You need to provide a _relative path_ to your data, so that if I clone your repo to my machine I can run everything in your repo without error. (You also provide links to any publicly accessible data.)
-    - I should be able to `Restart & Run All` in your notebook(s) and see that the _exact same_ results are reproduced.
-    - To check that everything worked properly, you may consider forking your own repo to a different location on your computer and checking that all notebooks can run properly from top to bottom.
-
-3) Bear in mind that the value you provide may come from data ingestion, data cleaning, EDA, and/ or a dashboard, etc. While a model may not be immediately apparent, be creative. *Without us telling you exactly what model to build, how could you build a model to increase performance or generate better insights when answering the problem you are facing?*
-
-**Questions**: Questions should be sent to your local instructor. **Questions should be specific, brief, and formatted.**
-> This is a good practice to develop! When contacting a boss or a client, you should make your question as easy as possible to answer. Consider the following two examples:
-
-> Example 1: "Hey, I have a question. I'm writing a blog post about TensorFlow but got stuck. This part was confusing: https://www.tensorflow.org/api_docs/python/tf/tanh Can you help?"
-
-> Example 2: "The TensorFlow tanh documentation says 'Computes hyperbolic tangent of x element-wise.' What does hyperbolic tangent mean? The link to see more is: https://www.tensorflow.org/api_docs/python/tf/tanh"
-
-> The first example spends about 20 words before mentioning what is going on. The question "Can you help?" is unspecific. The boss/client is required to go to a link in order to get any information about the problem.
-
-> The second example quickly calls out 'Tensorflow tanh documentation,' the explicit quote that is confusing, the explicit question being asked, and a link for additional context. Both examples attempt to get the boss/client/whomever to explain hyperbolic tangent, but imagine how much more quickly someone could answer the second query than the first.
-
-> A helpful way to consider this: When you ask a question, you are basically asking for a favor. You're asking a person to give their time, their brainpower, and their knowledge to you. Every time you ask them to hunt around for more (i.e. they _have_ to travel to a link to get context or they struggle to understand the question you're asking), you're asking a bigger and bigger favor from them.
-
+## Problem Statement
 ---
 
-### Teams
+This project aims to develop a machine learning model to accurately predict the likelihood of a patient abusing pain medications. By leveraging classification algorithms, such as Random Forest, Logistic Regression, Neural Networks, and K-Nearest Neighbors (KNN), the project seeks to provide actionable insights that enable healthcare professionals to make informed decisions regarding the prescription and management of pain medications.
 
-Your local instructor will divide your class into teams. Chat with them to find out!
-
+## Questions
 ---
 
-### Presentations
+1. Can we predict the likelihood of a patient abusing prescription pain medication based on past addiction history?
+2. How do different characteristics correlate to our predictions?
+3. How accurate of a model can we build and how could it be improved upon?
+4. What type of model gets us the best result?
 
-Each group will present their findings.
-
-Your presentation must include:
-- A summary of the problem you tackled.
-- A walkthrough of how you set out to solve the problem.
-- A demonstration of your solution. (i.e. You may demonstrate an app you developed, an example of how a model may be used, etc.)
-- A summary of any models you fit and, if applicable, their performance.
-- A brief discussion of limitations to your process. (i.e. data collection issues, missing values)
-- A brief discussion of next steps.
-
-Presentation requirements:
-- *Consider the audience!*
-- *As with presentations in the "real world," there is no required time limit.* Your presentation should be long enough to cover all relevant aspects of the problem, but not so long that it obscures the takeaways of the presentation. (Your group should likely aim for somewhere between 15 and 20 minutes, but it is possible that you may need a different amount of time for your presentation.)
-- Your presentation must include slides. (Google Slides, PowerPoint, Keynote, etc.)
-- Use visuals that are appropriately scaled and interpretable.
-- Make sure you provide clear conclusions/recommendations that follow logically from your analyses and narrative and answer your data science problem.
-
+## Data Dictionary
 ---
 
-### Consulting Project Feedback + Evaluation
 
-Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
+| Feature             | Type   | Dataset | Description                                                                       | Note |
+|---------------------|--------|---------|-----------------------------------------------------------------------------------|------|
+| **PRLMISAB**        | *int*  | All     | Abused prescription medications (Binary).                       | **TARGET VARIABLE** |    
+| **YEAR**            | *int*  | All     | Year of survey (Integer).                                                         |   15=2015, 16=2016, 17=2017   |
+| **AGECAT**          | *int*  | All     | Age category (Categorical).                                                       | 1=12-17 years, 2=18-25, 3=26-35, 4=36-49, 5=50 and older |
+| **SEX**             | *int*  | All     | Gender (Categorical).                                                             |   0=Male, 1=Female   |
+| **MARRIED**         | *int*  | All     | Marital status (Categorical).                                                     |  0=unmarried, 1=divorced, 2=widowed, 3=married     |
+| **EDUCAT**          | *int*  | All     | Education level (Categorical).                                                    |   1=h.s. or Less, 2=h.s. grad., 3=some college, 4=college grad.    |
+| **EMPLOY18**        | *int*  | All     | Employment status (Categorical).                                                  |  1=not employed, 2=part-time, 3=full-time    |
+| **CTYMETRO**        | *int*  | All     | City or metropolitan area (Categorical).                                          |    1=rural, 2=small, 3=large |
+| **HEALTH**          | *int*  | All     | Self-reported health (Categorical).                                               |   Likert scale: 1-10   |
+| **MENTHLTH**        | *int*  | All     | Self-reported mental health (Categorical).                                        |   Likert scale: 1-10   |
+| **PRLMISEVR**       | *int*  | All     | Ever misused prescription medication (Binary).                                    |       |
+| **PRLANY**          | *int*  | All     | Misused or abused minimum prescription medications (Binary).                      |       |
+| **HEROINEVR**       | *int*  | All     | Ever used heroin (Binary).                                                        |       |
+| **HEROINUSE**       | *int*  | All     | Used heroin in past year (Binary).                                                |   Likert scale: 0-5   |
+| **TRQLZRS**         | *int*  | All     | Used tranquilizers in past year (Binary).                                         |   Likert scale: 0-5    |
+| **SEDATVS**         | *int*  | All     | Used sedatives in past year (Binary).                                             |   Likert scale: 0-5    |
+| **COCAINE**         | *int*  | All     | Used cocaine in past year (Binary).                                               |   Likert scale: 0-5    |
+| **AMPHETMN**        | *int*  | All     | Used amphetamines in past year (Binary).                                          |  Likert scale: 0-5   |
+| **HALUCNG**         | *int*  | All     | Used hallucinogens in past year (Binary).                                         |  Likert scale: 0-5    |
+| **TRTMENT**         | *int*  | All     | Received treatment for substance use (Binary).                                    |    Likert scale: 1-10    |
+| **MHTRTMT**         | *int*  | All     | Received treatment for mental health (Binary).                                    |   Likert scale: 0-5   |
+| **AGE_MARRIED**         | *int*  | All     | Interaction (*) of AGECAT and MARRIED.                                               |       |
+| **AGE_EMPLOY**        | *int*  | All     | Interaction (*) of AGECAT and EMPLOY18.                                          |     |
+| **REPORTED_HEALTH**         | *int*  | All     | Interaction (*) of HEALTH and MENTHLTH.                                         |      |
+| **HISTORY**         | *int*  | All     | Interaction (*) of HEROINEVR and PRLMISEVR                                    |        |
+| **UPPERS**         | *int*  | All     | Use of uppers in last year (Cocaine and Amphetamines).                                    |      |
+| **DOWNERS**         | *int*  | All     | Use of downers in the last year (Sedatives, Tranqs, Heroin).    
 
-When evaluating projects, there are four areas on which your instructors focus.
-1. **Project Requirements: Did you meet all project requirements?** In answering this question, your instructors want to assess how well you met the project requirements as established. These will generally be laid out in the project readme.
+## Data Used
+---
+1. prlmis-data-full.csv
+2. pain_clean.csv
+3. Shiverick-PRLMIS-final.pdf
+4. Sarah_cleaned_csv
 
-2. **Audience: Is your presentation appropriate for the stakeholder?** In answering this question, your instructors want to assess how well you present your results to stakeholders. For example:
-  - Did you frame the problem appropriately for the audience?
-  - Did you use the appropriate level of technical language for your audience?
-  - Did you effectively use your time, or did you encounter an issue such as going significantly beyond or under the allotted time or rushing to conclude the presentation in the allotted time?
-  - Did you present effectively, or were there things that detract from the overall presentation such as not speaking loudly enough for the audience or repeating oneself?
 
-3. **Methods: Are your methods appropriate for solving the problem?** In answering this question, your instructors want to assess how well you have applied data science methodology to the problem at hand. For example:
-  - Did you make well-reasoned modeling choices, or is there clear evidence that the model is inadequate or improper?
-  - Are you able to clearly defend your methodological decisions and results?
-  - Did you generalize your results properly, or were your conclusions/inferences improper or fallacious?
+Links to outside resources used:
 
-4. **Value: Have you provided value to the stakeholder through clear, data-driven recommendations?** In answering this question, your instructors want to assess the value you provide to the stakeholder as a data scientist. For example:
-  - Did you answer the problem posed to you?
-  - Did you make your recommendations clear, or were the recommendations unclear?
-  - Were your recommendations data-driven and based on the results of your work?
+1. Kaggle Dataset on Opioid Abuse: https://www.kaggle.com/datasets/thedevastator/predicting-pain-reliever-misuse-abuse/data
+2. Dataset Documentation that Provided Data Dictionary Context: https://zenodo.org/records/2301844#.Y8OqptJBwUE
+3. Opioid Crisis in Young Americans https://murphy.house.gov/media/press-releases/murphy-fentanyl-killing-more-young-americans-covid-19
+4. Drug Overdose Death Rates: https://nida.nih.gov/research-topics/trends-statistics/overdose-death-rates#:~:text=Nearly%20108%2C000%20persons%20in%20the,drugs%20from%201999%20to%202022
 
-You will earn a score for each of the four areas mentioned above.
-1. Project Requirements: You may earn a score of 0 or 1. You will earn a score of 1 if all project requirements are met. Otherwise, you will earn a score of 0.
-2. Audience: You may earn a score between 0 and 3. A score of 0 indicates that your presentation is inappropriate for the stakeholder. A score of 1 indicates that at least part of your presentation should be non-trivially reworked to be more appropriate for the stakeholder. A score of 2 indicates that there are few to no areas of your presentation that should be reworked. A score of 3 indicates that your presentation is consistently appropriate for the stakeholder and serves as a model for future presentations.
-3. Methods: You may earn a score between 0 and 3. A score of 0 indicates that your methods are inappropriate. A score of 1 indicates that your methods are somewhat inappropriate, that justification for methodological decisions is lacking, and/or that your conclusions do not follow from the methods. A score of 2 indicates that your methods are appropriate, justification is sufficient/strong, and your conclusions follow well from the methods. A score of 3 indicates that your methods are excellent, strongly defended, and serves model for future presentations.
-4. Value: You may earn a score between 0 and 3. A score of 0 indicates that you provide little to no value to the stakeholder. A score of 1 indicates that the value you provide to the stakeholder is substantially less than expected by not answering the problem, not providing clear recommendations to the stakeholder, and/or providing recommendations that were not data-driven. A score of 2 indicates that the value you provide to the stakeholder is on par with the expectation of providing clear, data-driven recommendations that directly answer the problem posed. A score of 3 indicates that the value you provide to the stakeholder is beyond what is expected and serves as a model for future presentations.
 
-Your final grade will be calculated as follows:
-- If any project requirement is not met, the final grade is 'Fail' with a score of 0.
-- If all project requirements are met, then the final grade is 'Pass' with a score calculated by summing the above scores. Therefore, if all project requirements are met, the final score will be between a 1 and 10.
+
+
+### Requirements
+---
+- Python, Jupyter
+- Pandas, Numpy, Matplotlib, Seaborn
+- GradientBoost, XGB, RandomOverSampler
+- Scikit Learn Libraries:
+   - StandardScaler, Train Test Split, Metrics, LogisticRegression
+   - Pipeline, RandomForestClassifier, GradientBoostingClassifier
+   - classification_report, accuracy_score, confusion_matrix
+   - PCA, GridSearchCV
+- Tensorflow, Keras
+   - Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+   - Sequential, EarlyStopping
+
+## Executive Summary
+---
+
+ 
+### Objectives
+---
+1. Data Processing: Clean and preprocess the text data to ensure it is suitable for model training.
+2. Data Exploration: Explore data for correlations to our target variable and create interaction terms.
+3. Model Development: Develop and train machine learning models to predict the likelihood of a patient abusing prescription pain medications.
+4. Evaluation: Assess the performance of the models using various metrics to ensure their accuracy and reliability.
+
+
+### Methods
+---
+
+#### **Data Cleaning**
+The data seemed relatively clean at first glance, however when doing some EDA, a few of the columns had incorrect values. MARRIED, EDUCAT, and CTYMETRO columns had values that were not listed in the data dictionary. We were unable to determine what the values meant, so they were dropped while modeling. The EMPLOY18 column was listed as 0, 1, 2 rather than 1, 2, 3 as was indicated in the data dictionary. As a team we chose to move the 0 column to the 3 column because that would make the largest group ‘Employed’ individuals. Our target variable was the PRLMISEVR which was binary of 0 (no drug abuse) and 1 (drug abuse). There was a large class imbalance with 90% no drug abuse (0) to 10% drug abuse (1), so bootstrapping was implemented to bring the data to a 50(0)-50(1) class imbalance. The columns ‘PRLANY’ and ‘PRLMISAB’ are heavily correlated to our target value so they were also dropped during modeling.
+
+#### **Feature Engineering**
+We created new features that were interaction terms of existing features, such as UPPERS (interaction of stimulant category drug usage in last year), DOWNERS (interaction of sedative category drug usage in last year), REPORTED_HEALTH (interaction of self reported physical and mental health of patient), etc.
+
+#### **Instantiating PCA + Multiple Classifier Models**
+A principal component analysis (PCA) model was instantiated to determine how many components were necessary and the most important principles in this data set. Next, a PCA with the previously determined components was put into a pipeline along with a random forest classifier, logistic regression, and naive bayes classifier. This pipeline contained 4 pipelines – PCA (n_components=15) + random forest (n_estimators=600, max_features=9, max_depth=30), PCA (same as before) + logistic regression (max_iter=10000, penalty=None), logistic regression (same as before), and naive bayes. The goal was to run the four models and determine the best training and testing score out of the four.
+
+#### **Instantiating Neural Net Model**
+A neural net was instantiated with a total of 6 dense hidden layers, two dropout layers and a regularization of 0.001 l2. The layers were as follows:
+Dense(32 neurons, Relu activation, l2 regularization)
+Dense(32 neurons, Relu activation)
+Dropout(0.2)
+Dense(64, Relu activation)
+Dense(64, Relu activation)
+Dropout(0.25)
+Dense(128, Relu activation)
+Dense(128, Relu activation)
+Then a dense output layer with sigmoid activation and 1 neuron (binary classification). In total, this provided 32,801 trainable parameters. When fitting the neural net, a batch size of 32 was used with 100 epochs.
+
+#### **Baseline**
+After bootstrapping/oversampling, there was a baseline accuracy of 0.499 drug abuse to no drug abuse.
+
+#### **PCA + Multiple Classifier Models**
+Of the four models run, the PCA + random forest model was most successful with a training accuracy of 85.92% and a testing accuracy of 83.35%. Next, the PCA + logistic regression and plain logistic regression performed almost exactly the same on the training data with an accuracy of 73.99%. However, the PCA + logistic regression model performed 0.01% higher on testing accuracy with an accuracy of 74.20%. Lastly, the naive bayes model performed the worst with a training accuracy of 73.75% and testing accuracy of 73.80%.
+
+#### **Neural Net**
+The neural net had a slightly higher score compared to the logistic regression models. This model had a training accuracy of 75.03% and a testing accuracy of 75.35%. It also had a training loss of 0.538 and testing loss of 0.536.
+  
+
+#### Findings
+  - Surprisingly, the correlation between opioid abuse and drugs in the stimulant(UPPERS) category was stronger than the correlation between opioid abuse and drugs in the sedative(DOWNERS) category.
+
+### **Discussion/Conclusion**
+---
+The increased misuse and abuse of pain medication in recent years has underscored a pressing need for improved pain management treatment. While it’s crucial to prioritize the comfort and recovery of patients, there is a fine balance between delivering relief and minimizing the potential for misuse. These machine learning models aid in reducing judgment calls and provide physicians with insights to make informed decisions about pain management, preventing addiction, reducing the risk of relapse, and elevating overall quality of care.
+
+Classification models can indeed be valuable for predicting drug abuse risk. However, there is a trade-off between a model's complexity, its performance, and its interpretability. These factors are crucial when implementing a machine learning model in practice, as both doctors and patients value understanding how and why decisions are made. While random forests are more complex and less interpretable than logistic regression, they are less opaque than neural networks. In general, with this dataset in particular, random forests combined with PCA demonstrated better accuracy compared to neural networks and logistic regression.
+
+While each model outperformed the baseline predictions, both Type I and Type II errors were present, which could have serious clinical consequences. False negatives, in particular, pose a significant risk by potentially overlooking patients who are at risk for drug abuse or are currently in remission, thereby failing to provide timely intervention. Similarly, false positives may lead to unnecessary concern or intervention for individuals who are not at risk. To address these issues and improve clinical outcomes, it is crucial to continuously refine and validate the models with new and diverse datasets. This ongoing process will help to capture emerging patterns in addiction risk, enhance the models' predictive accuracy, and ultimately provide more reliable tools for identifying and managing drug abuse risk.
+
+Implementation of these models could prove significant in addressing the current opioid epidemic. As of 2023, approximately 75% of the 108,000 drug overdoses involved opioids. While this isn’t a solution, combining predictive modeling with clinical judgment can lead to improved patient care, enhanced patient safety, and reduce the risk of drug abuse/misuse.
+
+### Next steps
+---
+
+#### Enhance Data Collection:
+
+1. Gather detailed information on patients' self-reported pain levels to improve the identification of the need for pain medications.
+Aim to collect more comprehensive data, reducing the occurrence of missing values across various features.
+Data Validation:
+
+2. Contact the dataset creator to clarify discrepancies between the data dictionary and the actual values in the dataset.
+Ensure a clear understanding of all features and their respective values.
+Model Improvement:
+
+3. Focus on minimizing false negatives in future models to ensure that patients who are at high risk are accurately identified, reducing the likelihood of them being categorized as low risk.

@@ -1,11 +1,11 @@
 # Project 5: Group Project - Opioid Abuse
 ---
-Corey Jesmer, Ayodeji Ejigbo & Sarah Roe
+Corey Jesmer, Sarah Roe, & Ayodeji Ejigbo
 
 ## Problem Statement
 ---
 
-Can we build a model that predicts the likelihood of a patient abusing prescribed pain medication?
+This project aims to develop a machine learning model to accurately predict the likelihood of a patient abusing pain medications. By leveraging classification algorithms, such as Random Forest, Logistic Regression, Neural Networks, and K-Nearest Neighbors (KNN), the project seeks to provide actionable insights that enable healthcare professionals to make informed decisions regarding the prescription and management of pain medications.
 
 ## Questions
 ---
@@ -81,10 +81,8 @@ Links to outside resources used:
    - Conv2D, MaxPooling2D, Flatten, Dense, Dropout
    - Sequential, EarlyStopping
 
-### Executive Summary
+## Executive Summary
 ---
- This project aims to develop a machine learning model to predict the likelihood of a patient abusing pain medications. This information would allow doctors to make decisions on what types of pain meds to give, how much to give at a time, prevent cases of addiction and/or relapse and
-intervene early, create treatment plans and overall improve quality of care for all patients.
 
  
 ### Objectives
@@ -135,8 +133,11 @@ The neural net had a slightly higher score compared to the logistic regression m
 ### **Discussion/Conclusion**
 ---
 The increased misuse and abuse of pain medication in recent years has underscored a pressing need for improved pain management treatment. While it’s crucial to prioritize the comfort and recovery of patients, there is a fine balance between delivering relief and minimizing the potential for misuse. These machine learning models aid in reducing judgment calls and provide physicians with insights to make informed decisions about pain management, preventing addiction, reducing the risk of relapse, and elevating overall quality of care.
+
 Classification models can indeed be valuable for predicting drug abuse risk. However, there is a trade-off between a model's complexity, its performance, and its interpretability. These factors are crucial when implementing a machine learning model in practice, as both doctors and patients value understanding how and why decisions are made. While random forests are more complex and less interpretable than logistic regression, they are less opaque than neural networks. In general, with this dataset in particular, random forests combined with PCA demonstrated better accuracy compared to neural networks and logistic regression.
+
 While each model outperformed the baseline predictions, both Type I and Type II errors were present, which could have serious clinical consequences. False negatives, in particular, pose a significant risk by potentially overlooking patients who are at risk for drug abuse or are currently in remission, thereby failing to provide timely intervention. Similarly, false positives may lead to unnecessary concern or intervention for individuals who are not at risk. To address these issues and improve clinical outcomes, it is crucial to continuously refine and validate the models with new and diverse datasets. This ongoing process will help to capture emerging patterns in addiction risk, enhance the models' predictive accuracy, and ultimately provide more reliable tools for identifying and managing drug abuse risk.
+
 Implementation of these models could prove significant in addressing the current opioid epidemic. As of 2023, approximately 75% of the 108,000 drug overdoses involved opioids. While this isn’t a solution, combining predictive modeling with clinical judgment can lead to improved patient care, enhanced patient safety, and reduce the risk of drug abuse/misuse.
 
 ### Next steps
